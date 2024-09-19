@@ -1,0 +1,55 @@
+.feild.terms label{
+  margin-top: 50px;
+}
+.feild{
+  position: relative;
+  margin-bottom: 30px;
+}
+.field label{
+position: absolute;
+display: inline-block;
+margin-bottom: 5px;
+margin-left: 10px;
+}
+
+.feild input:not(.terms){
+  width: 50%;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 5px;
+}
+.feild span{
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  visibility: hidden;
+}
+.feild small{
+  position: absolute;
+  bottom: -18px;
+  left: 0px;
+  visibility: hidden;
+}
+.form #button:hover{
+  background-color:#17352b ;
+  cursor:pointer;
+}
+
+.feild.success span.success{
+color: #2ecc71;
+visibility: visible;
+}
+.feild.error span.error{
+color: red;
+visibility: visible;
+}
+.feild.error span.success{
+visibility: none;
+}
+.feild.success span.error{
+visibility: none;
+}
+.feild.error small{
+color: #e74c3c;
+visibility: visible;
+}
